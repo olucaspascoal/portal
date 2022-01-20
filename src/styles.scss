@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;500&display=swap');
+
 *{
     margin:  0;
     padding: 0;
+}
+
+/* Variáveis de cores */
+$color-white:     #f3eeee;
+$color-dark-grey: #333333;
+
+/* Fontes */
+$font-Vietnam: 'Be Vietnam Pro', sans-serif;
+
+.pad-5{
+    padding: 0 5rem;
+}
+
+.d-flex{
+    display: flex;
 }

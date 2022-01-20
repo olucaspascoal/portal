@@ -1,0 +1,28 @@
+@import '../../styles.scss';
+
+.header{
+    height: 3rem;
+    font-weight: 100;
+    color: $color-white;
+    align-items: center;
+    font-family: $font-Vietnam;
+    justify-content: space-between;
+    background-color: $color-dark-grey;
+
+    & h1{
+        font-weight: 300;
+    }
+
+    &-menu{
+        & ul{
+            list-style: none;
+            & :not(:first-child){
+                margin-left: 1rem;
+            }
+            & a {
+                color: $color-white;
+                text-decoration: none;
+            }
+        }
+    }
+}
